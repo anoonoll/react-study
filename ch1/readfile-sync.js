@@ -6,7 +6,7 @@ console.log(data)
 
 // ---非同期でファイルを読み込む---
 fs.readFile('kakugen.txt', 'utf-8', reaHandler)
-//読み込みが完了した時の処理
+// 読み込みが完了した時の処理
 function reaHandler (err, data) {
-    console.log(data)
+  console.log(data)
 }
